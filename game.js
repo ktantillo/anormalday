@@ -304,14 +304,13 @@ const textNodes = [
     },
     {
         id:21,
-        text:"You swoop down and grab Charlie just in time, sweeping him up into your arms as a thousand ethereal black hands just miss him. You breathe a huge sigh of relief. You can't believe Charlie did that! As you stare into the coal black eyes of your beloved pet, you ask yourself why he would do such a thing over one stupid cured bone. Though, as you look around your apartment…you realize you don't have a lot of dog toys or treats for him…..or really any? Did…did he go through all of his toys? ",
-        optiions: [
+        text:"You swoop down and grab Charlie just in time, sweeping him up into your arms as a thousand ethereal black hands just miss him. You breathe a huge sigh of relief. You can't believe Charlie did that! As you stare into the coal black eyes of your beloved pet, you ask yourself why he would do such a thing over one stupid cured bone. Though, as you look around your apartment…you realize you don't have a lot of dog toys or treats for him…..or really any? Did…did he go through all of his toys?",
+        options: [
             {
                 text:"Doesn't matter, you don't really have time for it today. ",
                 nextText:22,
 
             },
-
             {
                 text:"You can’t leave him alone like this when something is wrong. Send a quick email to reschedule and take care of the pupper.",
                 nextText:24,
