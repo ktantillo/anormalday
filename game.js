@@ -301,7 +301,311 @@ const textNodes = [
                 nextText:21,
             }
         ]
-    }
+    },
+    {
+        id:21,
+        text:"You swoop down and grab Charlie just in time, sweeping him up into your arms as a thousand ethereal black hands just miss him. You breathe a huge sigh of relief. You can't believe Charlie did that! As you stare into the coal black eyes of your beloved pet, you ask yourself why he would do such a thing over one stupid cured bone. Though, as you look around your apartment…you realize you don't have a lot of dog toys or treats for him…..or really any? Did…did he go through all of his toys? ",
+        optiions: [
+            {
+                text:"Doesn't matter, you don't really have time for it today. ",
+                nextText:22,
+
+            },
+
+            {
+                text:"You can’t leave him alone like this when something is wrong. Send a quick email to reschedule and take care of the pupper.",
+                nextText:24,
+            }
+        ]
+    },
+    {
+        id:22,
+        text:"You can't think about that right now. As much as you realize you've been neglecting poor lil Charlie over the last few weeks…..it's just because of how important this presentation is. You swear to yourself you will stop at Pets-gr-us on the way home. Still, you are a little worried about how he's acting so strangely this morning…",
+        options: [
+            {
+                text:"Better lock up Charlie in the bathroom, for safety.",
+                nextText:23,
+            },
+            {
+                text:"He will be fine, the hall closet stopped glowing and you have this last cured bone for him to enjoy on the couch while you're at work.",
+                nextText:38,
+            }
+        ]
+    },
+    {
+        id:23,
+        text:"Better safe than sorry. You grab a few of your old sweatshirts and pajama pants and make a little bed out of them on the bathroom floor, make sure to leave him a bowl of water…I guess you're out of dog food? You close him in and instantly you are met with the most unholy scratching and wailing from the bathroom. Just as it seems the scratching and whining and howling are  completely unbearable…all of a sudden it stops. Thank goodness, you'll be…sure to make it up….to….the….dog...what dog? Why are you standing staring at the bathroom door? Holy cripes, look at the time! ",
+        options: [
+            {
+                text:"Jeepers, it seems like you just zonked out for like 40 minutes! What the hell, you have shit to do today! ",
+                nextText:24,
+            }
+        ]
+    },
+    {
+        id:24,
+        text:"You send a quick email delaying that meeting or presentation or whatever, there's no way it's as important as your good boy, Charlie! You scoop him up in your arms (You can't seem to find his leash?) and head out the door, going to the cute little pet boutique down the road. But, as you enter the alleyway shortcut, you hear a sharp hissing sound. Turning towards it, you see a pair of angry red eyes. Fuck! Basilisk! You thought they were in hibernation! God damn global warming.",
+        options: [
+            {
+                text:"Panic! You do not plan to be a pillar of stone for the rest of your life.",
+                nextText:25,
+            },
+            {
+                text:"Stay calm, Charlie needs you to protect him after all.",
+                nextText:41,
+            }
+        ]
+    },
+    {
+        id:25,
+        text:"You panic and jump backward, dropping Charlie who makes a mournful little cry in the process. You feel guilty, but what else could you do? You see the little snake demon ass-spring towards Charlie. You can't bear to watch what comes next, you turn your head and throw your arms in front of your face to avoid seeing Charlie's gruesome fate. There's the sound of a scuffle..growls…hisses…and then a thump and a triumphant….bark? ",
+        options: [
+            {
+                text:"Did….did your 10 pound dog just kill a demon? Huh. ",
+                nextText:26,
+            }
+        ]
+    },
+    {
+        id:26,
+        text:"You lower your arms to see Charlie standing over the dead snake-like creature. His mouth is slightly open and he's….breathing in deeply? Looking closer…there's something like a fume coming off the snake. As you come closer, Charlie's head snaps up, and he glares at you. You didn't know dogs could glare, but that is definitely the look you're getting right now. Charlie walks towards you and you are filled with a wave of guilt. You fall to your knees, compelled to beg forgiveness, you….you…….know that Master is displeased. Master is annoyed. But it is fine. Master knows now you can not be trusted to make your own choices. Master will be in control now. You rise to our feet and gently pick up Master. He has so many plans for the day, and you can not disappoint him again. ",
+        optiions: [
+            {
+                text:"Frankly, I think Charlie probably would be better at making choices than you, how could you drop him??? Maybe try again without committing animal abuse?",
+                nextText:1,
+            }
+
+        ]
+    },
+    {
+        id:27,
+        text:"You roll into the coffee shop at work and…ugh, the line is incredibly long. You stand in line and just flip through your socials while you wait. There we go, youre almost to the front, that was fast its only….oh fuck so much later than you thought. You forget the coffee and rush to the conference room where you are sure people are already gathering. ",
+        options: [
+            {
+                text:"Wow, guess they are right when they say you waste your life away on the phone.",
+                nextText:19,
+            }
+        ]
+    },
+    {
+        id:28,
+        text:"Once it goes through the machine the sludge will be fine, yeah sure it will be fine. You brew the coffee with the sludge and gulp it down, you don't really need to savor anything anyway right? You just need to get the caffeine right? And…hey hello? You look really unwell.",
+        options: [
+            {
+                text:"Like, can you hear me?",
+                nextText:29,
+            }
+        ]
+    },
+    {
+        id:29,
+        text:"You've been staring straight ahead for like 20 minutes. What's up buddy? Are you going to…oh okay you're moving? Weird, we didn't decide you were going to do that and…you're getting in the car and going…south, that's not the way to work at all. What's going on? Hey hey can you even hear me anymore?",
+        options: [
+            {
+                text:"Come on buddy I need you to snap out of this! ",
+                nextText:30,
+            }
+        ]
+    },
+    {
+        id:30,
+        text:"Well we are on the highway now. You're doing your own thing now *I guess*. Can I get a clue to where we are going? Like this is truly creepy you know that right? You're not even listening to your shit podcasts, you're just driving for miles and miles and like…wait when's the last time you blinked? ",
+        options: [
+            {
+                text:"This is so frustrating! I guess I don't have any say in the matter anymore at all?? Like whats even the point now? Youre just going to do whatever.",
+                nextText:31,
+            }
+        ]
+    },
+    {
+        id:31,
+        text:"It's been FOREVER like this, you creepy zombie driving, me, talking to myself, you continuing to creepy zombie drive…you know how hard it is to play eye spy by yourself? Oh, wait! You're getting off the highway! We are headed towards….the Pinelands National Reserve? Huh weird.",
+        options: [
+            {
+                text:"Is this about hiking? And because I made fun of those walking shoes you bought last week?",
+                nextText:32,
+            }
+        ]
+    },
+    {
+        id:32,
+        text:"You stop abruptly, leaving your car in the middle of the road. Then you walk, and walk and walk into the woods. It's getting to the point that I cant tell if the tree cover is just that complete or if we have been doing this for so long it is getting dark. Just as I think we must be close to walking clear out of the reserves we come to a….door.  A wrought Iron door built directly into the stone of the earth. It's covered in chains and locks, both physical and supernatural.",
+        options: [
+            {
+                text:"Weird doors in the woods are…kinda fun?",
+                nextText:33,
+            }
+        ]
+    },
+    {
+        id:33,
+        text:"You set about breaking the locks. You tear at chains and you break seals. It's difficult work and by the time you are done your hands are bruised and bloody but you do not seem to care. You're working with the kind of drive and focus I've only seen you apply to the acquisition of night cheese in the past. Finally, the last barrier is broken, and with a great grinding whine you swing the door open. From deep inside, hoof beats, a snort, and just the slightest sight of a horn. You walk inside, ready to fulfill your final purpose. Before the creature leaves this cage he will feast and grow strong again.",
+        options: [
+            {
+                text:"Well that was bad. But for real, how did you think drinking cursed water was a good idea? Like I feel this one is on you fam.",
+                nextText:1,
+            }
+        ]
+    },
+    {
+        id:34,
+        text:"As the Well Woman soggily steps up to you you decide that it's not a problem to just like, hear her out. She comes up to you, opens her mouth, and from her long crone hands she extends a hand at you with a tarnished golden coin between her gnarled fingers. You stare at it for a second and then glance at her face. She squints her sunken eyes at you, opens her mouth as if to speak, but instead a series of angry clicks emerge.",
+        options: [
+            {
+                text:"Okay okay I'll take the stupid coin jeebus!",
+                nextText:35,
+            },
+            {
+                text:"There is no way I'm taking that coin. It is 110% cursed.",
+                nextText:44,
+            }
+        ]
+    },
+    {
+        id:35,
+        text:"You take the coin from her, you aren't sure what it does or how to use it but she seems to want to have it and you aren't going to make the Well Woman mad. You stand outside the conference room turning the coins over in your fingers? What to do with this thing? ",
+        options: [
+            {
+                text:"Flip it now, for luck.",
+                nextText:36,
+            },
+            {
+                text:"Flip it during your presentation, you'll look cool.",
+                nextText:46,
+            }
+        ]
+    },
+    {
+        id:36,
+        text:"You flip the coin and it disappears in the air. You look around….uh huh very very weird. You then walk into the conference room and its….wow. It's over the top in there. There is a caterer serving made to order omelets, full color print outs of all your charts, and uh, an espresso fountain? This is a little much. Mr. McGuffin gives you a look. “Did you bring that water weirdo into this?” ",
+        options: [
+            {
+                text:"…Mayyybee. Your heart sinks and he signs.",
+                nextText: 37,
+            }
+        ]
+    },
+    {
+        id:37,
+        text:"He shakes his head, clearly not happy with what you have to say.“That's not really the response I expect from someone at my company. Your ideas are good, so I am totally going to use them, but I'm not sure *you* are the person I want heading them up.” So there it is. All your hard work and just one blunder means instead of heading up your hard work you are going back to the cubical for minimum wage and someone else will head the project you created. Well, I guess the day could have gone worse but man, this still does not seem fair.",
+        options: [
+            {
+                text:"Womp womp, tho I promise you today could have gone a lot worse. Wanna see for yourself?",
+                nextText:1,
+            }
+        ]
+    },
+    {
+        id:38,
+        text:"Charlie will be fine, you don't have time to overthink it. You give him the last cured bone and resolve to stop on the way home to get him toys, and food, and…bowls? Man you have been neglectful. You plop him on the couch, scratch behind his ears, and head out.",
+        options: [
+            {
+                text:"Wait, is he…smirking as you leave the room?",
+                nextText:39,
+            }
+        ]
+    },
+    {
+        id:39,
+        text:"The second you are gone Charlie jumps from the couch and beelines to your bedroom. He dashes under your bed and then pulls out a box. This is a pretty special box to you. Its filled with your photos and yearbooks, mementos of people you have loved and lost. Charlie opens his mouth and starts to…breathe in…your memories? As he does he seems to grow and swell unnaturally and your beloved mementos crumble to dust. Once hes has consumed that he goes to your closet to gorge himself more on the sentiment and spirit contained in your most beloved objects.",
+        options: [
+            {
+                text:" Bad dog Charlie! Bad! Stop eating that emotional essence! ",
+                nextText:40,
+            },
+        ]
+    },
+    {
+        id:40,
+        text:"As you are driving down the highway chilling out to the soothing voice on MPR describing a method of producing foie gras without  force feeding imps, you are jarred as a piercing emergency broadcast alarm cuts through. The robotic voice commands all listeners to seek shelter and to flee the city while warning that the bridge near your apartment  has already been crushed by a creature. As you turn a corner you see it, massive angry creature black and tan in color and…weirdly dog like? You see it picking up cars and breathing deeply with them near its snoot like maw, a thin blue essence coming out of the cars and being swallowed by the creature. You decide maybe it's best to get out of town for a while. You spin the car around and head as fast as you can to your aunt Merties place in the country. Sure the wifi is bad but there's less chance of demonic death so it seems worth it.",
+        options: [
+            {
+                text: "Enjoy Merties pepper pie! Or maybe see if you can do things a little differently?",
+                nextText:1,
+            }
+        ]
+    },
+    {
+        id:41,
+        text:"First priority is to protect Charlie! Thinking quickly, you grab a stray metal garbage can lid and block the creature, causing it to crash fang first into the metal. It falls to the ground and seems stunned, so you take the opportunity to smash the lid down on its neck. Charlie jumps out of your arms and lunges at its head. You hear an angry crunch and the Basilisk stops moving. Charlie tilts his head and almost looks surprised at the fact that you defended him. He licks your face as you scoop him back up and you can feel his feathery tail beat against your side. Of course lil buddy, you think, anything for you.",
+        options: [
+            {
+                text: "Maybe it was a bad idea to bring Charlie. Maybe go back and drop him at the apartment?",
+                nextText:39,
+            },
+            {
+                text:"That was scary! Well, back on route to the pet store! ",
+                nextText:41,
+            }
+        ]
+    },
+    {
+        id:42,
+        text:"You and Charlie roll into the pet store and the first thing you do is grab him a new leash and harness so you can put him on the floor and do a little shopping of his own. From aisle to aisle you go, occasionally Charlie grabs a toy or treat and brings it to you. You can't resist those puppy dog eyes and say yes to everything and Charlie seems to approve. As you approach the counter the woman behind the counter looks at you horrified. She croaks out “Ma’am I don't think you know what that is.” ",
+        options: [
+            {
+                text:"What? Charlies your dog, always has been always will be you don't listen to her nonsense and switch to self check out.",
+                nextText:43,
+            },
+            {
+                text:"Well, it doesn't hurt to hear her out…",
+                nextText:47,
+            }
+        ]
+    },
+    {
+        id:43,
+        text:"You roll your eyes and brush her off. Really? You think my tiny weiner dog is some kind of demon? You check out with Charlies haul and walk back home. When you get there you check your messages. Wellll you've been fired for not showing up for the meeting you scheduled. That is…a bummer. You look over at Charlie and give his lil head a scratch. Thinking some way you'll be fine as long as you stick by charlie. He tilts his head and then scurries off just to return with a page of the news paper. It's the…bounty page for troublesome demons, dragons and fae folk? One of the top listings is that Basilesk you took out earlier and the bounty is…freaking jeepers like half what you made last year at your office job. You decide to go back to the alley to hopefully grab the evidence you need to collect and as you do so it occurs to you….you and Charlie made a pretty good team doing that and a lot of the things on that bounty page seem much easier to take out. Seems like you and your good man have a future taking out troublesome monsters and living the high life doing it.",
+        options: [
+            {
+                text:"Dachshund and pal bounty hunting YAS! This is definitely the coolest ending but I guess maybe you want to try for some of the others?",
+                nextText:1,
+            }
+        ]
+    },
+    {
+        id:44,
+        text:"You point blank *will not* take that coin, no way no how. You know an ancient curse when you see one. Even as you shake your head no and push her hand away, the Well Womans clicking screams become louder and louder, still you resist. Finally, the Well Woman grabs you and pulls you faster than would seem possible back. Flying down the halls before you realize it she is bringing you into the Well. You grab on frantically to the wooden post of the well, but no, she's far too strong and down you go into the dank well.",
+        options: [
+            {
+                text:"Ew. It's so musty down there.",
+                nextText:45,
+
+            }
+        ]
+    },
+    {
+        id:45,
+        text:"You wonder down there for ages, for what seems like years, in the dank and the dirt. Logically, you know you should have died of the intense hunger and first a long time ago but for some reason you can continue on. After wandering down countless passages and tunnels, eventually you see an area where the passage seems to go up and has a….odd red glow at the end. As you work your way up the passage gets steeper and steeper but you climb none the less towards the red light. And, just as you are about to reach it, something (maybe a cured dog bone?) comes flying out of nowhere and hits you in the head, knocking you back down to the lowest point in the passage.",
+        options: [
+            {
+                text:"Lesson learned, be nice to Well Women. Try again?",
+                nextText:1,
+            }
+
+        ]
+        
+    },
+    {
+        id:46,
+        text:"You decide the coin will give you a cool, devil may care vide as you do your presentation. You go in, survey everyone in the meeting and give the coin a practiced flip and….and…. You watch as the drone who scheduled this meeting walks up the podium. You don't really care what they have to say, you've looked over their materials well enough to see it's a good idea that you are completely going to use, the only factor in all of this is if this particular drone has the chops to handle the project. They look a little….taken aback, confused? You feel like you've seen enough. You say you have something important to take care of while meaningfully patting your briefcase and say you don't have time for this anymore. You grab a danish on the way out as you decide if you're going to take a nap in your office or take the rest of the day off to go hit a few rounds down at the club. ",
+        options: [
+            {
+                text:"Wow, wait, are you the boss now? Am I just hanging with McGuffin now? I'm a little confused. Maybe we did it wrong? Better try again.",
+                nextText:1,
+            }
+        ]
+    },
+    {
+        id:47,
+        text:"You hear her out and….wow that's a lot. Demons can really rewrite memories like that? Still, this is kind of overwhelming. Are you just going to trust some random clerk? You leave the store without buying anything and decide to drop Charlie off at the apartment and go for a drive to clear your head. ",
+        options: [
+            {
+                text:"Some time apart and distance might make it clearer what's really going on right?",
+                nextText:39,
+            }
+        ]
+    },
 
 ]
 
