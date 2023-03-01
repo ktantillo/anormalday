@@ -534,7 +534,7 @@ const textNodes = [
             },
             {
                 text:"That was scary! Well, back on route to the pet store! ",
-                nextText:41,
+                nextText:42,
             }
         ]
     },
